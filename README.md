@@ -36,13 +36,21 @@ cd rejangras
 sudo docker-compose up
 ```
 
-TThree Docker containers will be launched after last step: 
+Three Docker containers will be launched after last step: 
 ```
 sudo docker ps
 ```
-- django_db
-- django_rest_api
-- django_web_front
+### django_db
+
+The django_db is the Postgres database.
+
+### django_rest_api
+
+The django_rest_api is the Python/Django Web API. This returns JSON data when accessing `localhost:8000`.
+
+### django_web_front
+
+The django_web_front is the Node.js/React container. This fetches API data from django_rest_api using React.
 
 After launching their containers, access the `localhost:3000`. The SPA will be shown the below.
 
