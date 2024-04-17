@@ -28,9 +28,9 @@ To embark on this journey, you'll need the following prerequisites:
 To see the app, clone the repo and execute `docker-compose up`.
 
 ```
-git clone git@github.com:hodanov/react-django-postgres-sample-app.git
-cd react-django-postgres-sample-app
-docker-compose up
+git clone git@github.com:0yj/rejangras.git
+cd rejangras
+sudo docker-compose up
 ```
 
 Then, the three Docker containers will run.
