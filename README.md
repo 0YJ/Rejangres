@@ -36,8 +36,10 @@ cd rejangras
 sudo docker-compose up
 ```
 
-Then, the three Docker containers will run.
-
+TThree Docker containers will be launched after last step: 
+```
+sudo docker ps
+```
 - django_db
 - django_rest_api
 - django_web_front
