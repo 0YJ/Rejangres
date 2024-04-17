@@ -21,6 +21,10 @@ To embark on this journey, you'll need the following prerequisites:
 
 * Docker (download link: https://www.docker.com/)
 * Docker Compose (download link: https://docs.docker.com/compose/install/)
+Or, for *nix
+```
+sudo apt install docker-compose
+```
 
 ## Getting Started
 
