@@ -1,4 +1,4 @@
-# React + Django + Postgres smaple app on Docker
+# React + Django + Postgres sample app on Docker
 
 This is the sample app using React, Django and Postgres on docker.
 
