@@ -110,6 +110,17 @@ There are three entry points the below.
 
 The app is specified some entry points in the `docker-compose.yml`. The command is executed when each container starts.
 
+Go inside DB:
+```bash
+sudo docker exec -it containerID bash
+psql -U postgres -b test_app
+```
+Combo with Jetbrain Datagrip
+```bash
+sudo docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' django_db
+```
+Use this ip as host and port is 5432
+Set username and password then you will be fine! 
 ## Author
 
-[Hoda](https://hodalog.com)
+[YJ](https://github.com/0YJ)
