@@ -41,13 +41,9 @@ Three Docker containers will be launched after last step:
 sudo docker ps
 ```
 ### django_db
-
 The django_db is the Postgres database.
-
 ### django_rest_api
-
 The django_rest_api is the Python/Django Web API. This returns JSON data when accessing `localhost:8000`.
-
 ### django_web_front
 
 The django_web_front is the Node.js/React container. This fetches API data from django_rest_api using React.
@@ -114,16 +110,21 @@ There are three entry points the below.
 The app is specified some entry points in the `docker-compose.yml`. The command is executed when each container starts.
 
 Go inside DB:
+
 ```bash
 sudo docker exec -it containerID bash
 psql -U postgres -b test_app
 ```
+
 Combo with Jetbrain Datagrip
+
 ```bash
 sudo docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' django_db
 ```
+
 Use this ip as host and port is 5432
 Set username and password then you will be fine! 
+
 ## Author
 
 [YJ](https://github.com/0YJ)
