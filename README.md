@@ -52,21 +52,10 @@ The django_rest_api is the Python/Django Web API. This returns JSON data when ac
 
 The django_web_front is the Node.js/React container. This fetches API data from django_rest_api using React.
 
-After launching their containers, access the `localhost:3000`. The SPA will be shown the below.
+After launching those containers, access the `localhost:3000`. The App will be shown the below.
 
 ![sample_image](img/sample_image.png)
 
-### django_db
-
-The django_db is the Postgres database.
-
-### django_rest_api
-
-The django_rest_api is the Python/Django Web API. This returns JSON data when accessing `localhost:8000`.
-
-### django_web_front
-
-The django_web_front is the Node.js/React container. This fetches API data from django_rest_api using React.
 
 ## File Sharing settings
 
