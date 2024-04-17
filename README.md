@@ -1,26 +1,27 @@
-# React + Django + Postgres sample app on Docker
+# Rejangras = React + Django + Postgres
 
-This is the sample app using React, Django and Postgres on docker.
+This comprehensive guide showcases the seamless integration of React, Django, and Postgres within a Docker environment, so that it is easier for moving whole App to cloud server, like AWS EC2 + RDS combo.
 
-This sample app is using the following technologies:
+## Technologies Employed
 
-- React
-- Node.js
-- Axios
-- Bulma
-- Python
-- Django
-- Django REST framework
-- Postgres
-- Docker
-- Docker Compose
+    React: For crafting a dynamic and interactive user interface
+    Node.js: To power the JavaScript runtime environment
+    Axios: For making efficient HTTP requests
+    Bulma: For building a clean and responsive UI
+    Python: For developing a robust and scalable backend
+    Django: For constructing a powerful backend framework
+    Django REST Framework: For creating a streamlined and RESTful API
+    Postgres: For managing data with reliability and flexibility
+    Docker: For containerizing applications and ensuring consistent environments
+    Docker Compose: For orchestrating and managing multiple Docker containers
 
-## Requirements
+## Prerequisites
 
-The app requires the following to run:
+To embark on this journey, you'll need the following prerequisites:
 
-- Docker
-- Docker Compose
+    Docker: Download from https://docs.docker.com/get-docker/
+    Docker Compose: Download from https://docs.docker.com/compose/install/
+
 
 ## Getting Started
 
