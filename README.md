@@ -1,4 +1,4 @@
-# :dolphin:Rejangras:flags: = React + Django + Postgres
+# :dolphin:Rejangres:flags: = React + Django + Postgres
 
 This comprehensive guide showcases the seamless integration of React, Django, and Postgres within a Docker environment, so that it is easier for moving whole App to cloud server, like AWS EC2 + RDS combo.
 
